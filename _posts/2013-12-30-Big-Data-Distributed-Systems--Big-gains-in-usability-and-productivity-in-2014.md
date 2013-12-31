@@ -11,7 +11,7 @@ In 2014 this area will see advances in these broad areas
 ## Ease of development: Go language
 [Derek Collison](https://twitter.com/derekcollison‎) made a [prediction](https://twitter.com/derekcollison/status/245522124666716160) that [Go](http://golang.org) will become the dominant language for systems work in IaaS, Orchestration, and PaaS in 24 months. That was 15 months ago and things are really on track for it to be pretty accurate. The language's use in distributed systems is growing fast. It's amazing how much traction this new language has received (even without generics).
 
-I have spent years coding systems in C++, Python and Java. In my limited experience with Go I can tell that the language makes the coding process faster without sacrificing efficiency of the resulting code.
+After having spent years coding systems in C++, Python and Java, with my limited experience with Go I can see how the language makes the coding process faster without sacrificing efficiency of the resulting code.
 
 ## Ease of development: dev environment
 Working on a sub-system of a large distributed system means spending enormous amount of time on setup and configuration of the development environment that approximates the real-life system along with real-life datasets.
@@ -32,6 +32,6 @@ Heroku remains a leading PaaS. The world owes Heroku two fundamental primitives 
 ## Common methodology
 Finally, the list of 2014 technologies to watch would not be complete without mentioning [12 factor methodology](http://12factor.net/), an important document that received lots of attention in 2013. The principles defined in this document is a true a crystallization of collective experience of many people who have build hundreds of distributed systems and learned their lessons.
 
-Not a technology per-se, this manifest-like document is a modern analog of [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns) or [Refactoring](http://en.wikipedia.org/wiki/Refactoring). 
+This manifest-like document is a modern analog of [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns) or [Refactoring](http://en.wikipedia.org/wiki/Refactoring). 
 
 I expect that this document will provide the common vocabulary and a common set of principles and priorities for engineers involved in development and operation of distributed systems.
