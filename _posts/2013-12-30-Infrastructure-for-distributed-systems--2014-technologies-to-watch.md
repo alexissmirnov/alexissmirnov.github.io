@@ -4,9 +4,9 @@ title:  "Big Data Distibuted Systems in 2014. Infrastructure."
 date:   2013-12-30 21:52:07
 categories: tech
 ---
+## Google Compute Engine
 In 2013 and prior, the concept of public IaaS has been well established by [AWS EC2](http://aws.amazon.com/ec2) and adjacent AWS technologies - a utility-based service that provides access to elastic compute resources. What followed are several adaptations of these core concepts to the private cloud. But there have not been a viable alternative to EC2.
 
-## Google Compute Engine
 In 2014 we'll see the first real competitor of EC2: [Google Compute Engine](https://cloud.google.com/products/compute-engine/). I won't bore you with the talk about Google's deep pockets to fight the price war with Amazon. But it is important to note that Google does have at least one technology advantage. Google would be using dedicated finer that connects its data centres, while Amazon uses the public internet. As a result, globally-distributed systems stand to gain in network performance and predicability.
 
 In 2014 GCE will not make a dent in AWS growth and usage, but will likely provoke some reaction from AWS which will likely take the form of further price reductions.  
@@ -37,3 +37,5 @@ Here's how one such system, [ZooKeeper](http://zookeeper.apache.org/), describes
 As the use-cases of such a system are being more widely [understood](https://news.ycombinator.com/item?id=6366665) there will be other, simpler, standalone, lightweight implementations of coordination and service discovery services. 
 
 Some high potentials include [Redis](http://redis.io) managed by with it's upcoming [Sentinel](http://redis.io/topics/sentinel) module, [Serf](http://www.serfdom.io/), [SkyDNS](http://blog.gopheracademy.com/skydns) or [etcd](http://coreos.com/using-coreos/etcd/) being developed as part of CoreOS.
+
+Next, let's look at [data processing technologies in 2014](/tech/2013/12/30/Big-Data-Technologies-growing-in-2014.html) that are poised to grow.
