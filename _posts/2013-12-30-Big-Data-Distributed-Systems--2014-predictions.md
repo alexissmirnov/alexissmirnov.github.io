@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Big Data Distributed Systems. 2014 predictions."
