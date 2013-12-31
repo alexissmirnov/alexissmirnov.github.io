@@ -17,3 +17,5 @@ With these two primitives, systems for interactive queries, graph analysis and s
 The benefits of Spark go beyond dramatic performance increase due to in-memory processing. Another key benefit is the ability to combine different types of systems (ad-hoc queries, graph processing, machine learning, streaming) without having to export/import data from one to another.
  
 My prediction for 2014 is that Spark will be the fastest growing general-purpose data processing technology. Several big distributed systems will use Hadoop/Spark hybrid architecture by replacing Hadoop MapReduce jobs to Spark engine, while still using data from HDFS. In 24 months Spark and it's eco-system will displace Hadoop MapReduce as typical way to run MapReduce.
+
+Another big goal of Spark project is to improve usability and productivity of dig data technologies. [Let's look](/tech/2013/12/30/Big-Data-Distributed-Systems--Big-gains-in-usability-and-productivity-in-2014.html) at what could happen in 2014 in this area.
