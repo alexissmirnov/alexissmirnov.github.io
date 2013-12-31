@@ -1,4 +1,4 @@
-Alexis Smirnov. Thinking about software.
+Thinking about software.
 =======================
 
 This is my personal blog available on http://weblog.smirnov.ca
