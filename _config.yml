@@ -1,3 +1,4 @@
 name: Alexis Smirnov. Thinking about software.
+baseurl: /alexissmirnov.github.io
 markdown: redcarpet
 pygments: true
