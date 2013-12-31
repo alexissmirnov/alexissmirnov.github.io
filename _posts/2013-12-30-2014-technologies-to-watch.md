@@ -26,6 +26,6 @@ The fact that foundational technologies have disproportionate impact on our live
 
 These systems are so essential, yet they are also very new. Their adoption outside of leading internet giants has really just started over the last few years. Their fundamentals are still in active development. There is no way to know for sure what specific technologies will be at the hart of such systems in 10 years. But things are more clear looking one year ahead.
 
-In the next blog I'll note my own predictions, so that I can check back in a year.
+In the [next blog](/tech/2013/12/30/Big-Data-Distributed-Systems--2014-predictions.html) I'll note my own predictions, so that I can check back in a year.
 
 

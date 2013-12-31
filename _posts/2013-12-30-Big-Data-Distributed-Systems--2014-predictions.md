@@ -9,7 +9,7 @@ Here's my take on which technologies will emerge in 2014. They are all related t
 # Infrastructure predictions
 - Google Compute Engine will become the biggest AWS competitor, but won't make a dent in AWS growth and usage.
 - Several large commercial data-driven distributed systems will be running on Docker.
-- Docker will enable at least one new use-case for elastic compute infrastructure, previously impossible due to the wight of the VM.
+- Docker will enable at least one use-case previously impossible due to the wight of the virtualization layer.
 - At least two large-scale distributed systems will forgo virtualization in favour of running on Docker with CoreOS.
 - Redis with Sentinel will be used as a fully-featured alternative to ZooKeeper in a large-scale distributed system. 
 
