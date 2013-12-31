@@ -4,11 +4,11 @@ title:  "Most important technologies in 2014. Big Data Distributed Systems"
 date:   2013-12-30 21:52:07
 categories: tech
 ---
-End of the year is the time for reflection, for looking back at the past year and looking forward into the next year trying to predict what the future holds. So what technology will be most important in the future?
+End of the year is the time for reflection, for looking back at the past year and looking forward into the next year trying to predict what the future holds. I'm always curious what technology will be most important in the future?
 
-Ask this question without imposing any constrains and you may get answers about energy, space exploration, biology, artificial intelligence. The most important technologies of the future will be those that solve the biggest problems or provide the most powerful tools.
+Ask this question without imposing any constrains and you may get answers about energy, space exploration, biology, artificial intelligence. After all, the most important technologies will be those that solve the biggest problems and provide the most powerful tools.
 
-What's fascinating about all these technologies, is that they have something in common: software. Two and a half years ago Marc Andressen penned an highly influential essay titled "Why Software is Eating the World". His central thesis remains true today: more and more industries "from movies to agriculture to national defence" are becoming largely software industries. Software is becoming the key part of solving the biggest problems. The most powerful tools of the future will be software tools.
+What's fascinating about all these technologies is that they have one thing in common: software. Two and a half years ago Marc Andressen penned an highly influential essay titled [Why Software is Eating the World](http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460). His central thesis remains true today: more and more industries "from movies to agriculture to national defence" are becoming largely software industries. Software is becoming the key part of solving the biggest problems. The most powerful tools of the future will be software tools.
 
 If software will be at the center of most important technologies of the future, let's restate the question. Which software technologies will be the most important? To me this question is of profound importance. Time and energy invested in these software technologies would have a compounded effect, accelerating solutions to world's biggest problems and creating the most powerful tools.
 
