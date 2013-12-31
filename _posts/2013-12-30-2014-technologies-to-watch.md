@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Most important technologies in 2014. Big Data Distributed Systems"
+date:   2013-12-30 21:52:07
+categories: tech
+---
+
 # tl/dr: Hot in 2014 
 - Docker
 - CoreOS
