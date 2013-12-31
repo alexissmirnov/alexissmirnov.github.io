@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Infrastructure for distributed systems. 2014 technologies to watch."
+title:  "Big Data Distibuted Systems in 2014. Infrastructure."
 date:   2013-12-30 21:52:07
 categories: tech
 ---

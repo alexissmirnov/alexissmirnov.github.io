@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Big Data Distributed Systems. Big gains in usability and productivity in 2014."
+title:  "Big Data Distributed Systems in 2014. Big gains in usability and productivity"
 date:   2013-12-30 21:52:07
 categories: tech
 ---

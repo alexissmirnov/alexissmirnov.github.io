@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Big Data Technologies growing in 2014"
+title:  "Big Data Distributed Systems in 2014. Data processing."
 date:   2013-12-30 21:52:07
 categories: tech
 ---
