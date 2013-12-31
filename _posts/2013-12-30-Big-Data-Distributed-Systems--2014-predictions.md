@@ -5,6 +5,7 @@ title:  "Big Data Distributed Systems. 2014 predictions."
 date:   2013-12-30 21:52:07
 categories: tech
 ---
+Here's my take on which technologies will emerge in 2014. They are all related to Distributed Systems, but they serve different needs and solve different problems. The list below isn't meant to be comprehensive as I only focus on what I think will become the most impactful *new* projects that we'll hear more about in 2014.
 
 # tl/dr: Hot in 2014 
 - Docker
@@ -18,7 +19,7 @@ categories: tech
 
 
 # Infrastructure layer
-By 2013 and prior, the concept of public IaaS has been well established by AWS EC2 and adjacent AWS technologies - a utility-based service that provides access to elastic compute resources. What followed are several adaptations of these core concepts to the private cloud. But there have not been a viable alternative to EC2.
+In 2013 and prior, the concept of public IaaS has been well established by AWS EC2 and adjacent AWS technologies - a utility-based service that provides access to elastic compute resources. What followed are several adaptations of these core concepts to the private cloud. But there have not been a viable alternative to EC2.
 
 ## Google Compute Engine
 In 2014 we'll see the first real competitor of EC2: Google Compute Engine. I won't bore you with the talk about Google's deep pockets to fight the price war with Amazon. But it is important to note that Google does have at least one technology advantage. Google would be using dedicated finer that connects its data centres, while Amazon uses the public internet. As a result, globally-distributed systems stand to gain in network performance and predicability.
