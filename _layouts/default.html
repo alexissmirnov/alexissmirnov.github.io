@@ -1,59 +1,98 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" media="all" href="http://cloudfront.ia.net/wp-content/themes/iA4-0.2/style.css" />
+        <link rel="stylesheet" href="/css/syntax.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <script>
+    // make windows load system fonts
+    if(navigator.appVersion.indexOf("Win") != -1) {
+        var windowsCss = document.createElement("link");
+
+        windowsCss.setAttribute("rel", "stylesheet");
+        windowsCss.setAttribute("media", "all");
+        windowsCss.setAttribute("href", "http://cloudfront.ia.net/wp-content/themes/iA4-0.2/stylesheets/windows.css");
+
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(windowsCss);
+
+        windows = true;
+
+    } else {
+        var fontCss = document.createElement("link");
+
+        fontCss.setAttribute("rel", "stylesheet");
+        fontCss.setAttribute("media", "all");
+        fontCss.setAttribute("href", "http://cloudfront.ia.net/wp-content/themes/iA4-0.2/stylesheets/fonts-1-2.css");
+
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(fontCss);
+    }
+    </script>
+
+        <title>title</title>
+        <meta name="description" content="Page description">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
     </head>
     <body>
+		<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <!-- <a class="extra" href="/">home</a> -->
-            </div>
+<article id="content">
+		<header>
+        	<a id="logo" href="http://alexis.smirnov.ca">Alexis Smirnov</a><br/>
+        	<span class="post_author">Thinking about software.</span> 
+        </header>
+
 
                 {{ content }}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Get in touch!<br />
-                  
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://twitter.com/alexissmirnov/">Twitter</a> 
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://ca.linkedin.com/in/alexissmirnov/">LinkedIn</a> 
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/alexissmirnov/">GitHub</a>
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="mailto:alexis@smirnov.ca">Email</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
+
+        <section id="contact">
+            <h1 class="section_separator">
+                <span>Contact</span>
+            </h1>
+
+            <p>Get in touch with Alexis on <a href="http://twitter.com/alexissmirnov">Twitter</a> or by <a mailto="alexis@smirnov.ca">Email</a>.</p>
+
+            <section id="offices" class="clearfix"></section>
+        </section>   
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+
+            <nav><a href="http://weblog.smirnov.ca/">Home</a>&nbsp;|&nbsp;<a href="http://twitter.com/alexissmirnov">Twitter</a>&nbsp;|&nbsp;<a href="http://github.com/alexissmirnov">GitHub</a>|&nbsp;<a href="http://www.linkedin.com/in/alexissmirnov">LinkedIn</a></nav>                     
+                <span>&copy;&nbsp;Alexis Smirnov. Theme by <a href="http://store.ia.net">Information Architects</a>.</span>
+        </footer>
+
+
+</article>
         </div> <!-- /container -->
 
-    </body>
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>    </body>
 </html>

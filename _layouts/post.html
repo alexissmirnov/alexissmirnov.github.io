@@ -1,9 +1,113 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<div class="post">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" media="all" href="http://cloudfront.ia.net/wp-content/themes/iA4-0.2/style.css" />
+        <link rel="stylesheet" href="/css/syntax.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <script>
+    // make windows load system fonts
+    if(navigator.appVersion.indexOf("Win") != -1) {
+        var windowsCss = document.createElement("link");
+
+        windowsCss.setAttribute("rel", "stylesheet");
+        windowsCss.setAttribute("media", "all");
+        windowsCss.setAttribute("href", "http://cloudfront.ia.net/wp-content/themes/iA4-0.2/stylesheets/windows.css");
+
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(windowsCss);
+
+        windows = true;
+
+    } else {
+        var fontCss = document.createElement("link");
+
+        fontCss.setAttribute("rel", "stylesheet");
+        fontCss.setAttribute("media", "all");
+        fontCss.setAttribute("href", "http://cloudfront.ia.net/wp-content/themes/iA4-0.2/stylesheets/fonts-1-2.css");
+
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(fontCss);
+    }
+    </script>
+
+        <title>Page title</title>
+        <meta name="description" content="Page description">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+<article id="content">
+        <header>
+            <span class="post_author">Alexis Smirnov</span> 
+        </header>
+        <section id="post">
+
+            <h1 class="section_separator">
+                <span>{{ page.date | date_to_string }}</span>
+            </h1>
+
+            <article id="{{ page.id }}" class="post">
+
+                <h1 class="post_title">{{ page.title }}</h1>
+
+                <!-- <span class="post_author">by&nbsp;Alexis Smirnov</span> -->
+
+<!--                <h2>{{page.excerpt}}</h2> -->
+
 {{ content }}
-</div>
+
+
+                <span class="post_fleuron symbol">Ð</span>
+            </article><!-- end of .post -->
+        </section><!-- end of #post -->
+
+
+
+        <section id="contact">
+            <h1 class="section_separator">
+                <span>Contact</span>
+            </h1>
+
+            <p>Get in touch with Alexis on <a href="http://twitter.com/alexissmirnov">Twitter</a> or by <a mailto="alexis@smirnov.ca">Email</a>.</p>
+
+            <section id="offices" class="clearfix" />
+
+        <footer>
+            <h1 class="section_separator"><span></span></h1>
+
+            <nav><a href="http://weblog.smirnov.ca/">Home</a>&nbsp;|&nbsp;<a href="http://twitter.com/alexissmirnov">Twitter</a>&nbsp;|&nbsp;<a href="http://github.com/alexissmirnov">GitHub</a>|&nbsp;<a href="http://www.linkedin.com/in/alexissmirnov">LinkedIn</a></nav>                     
+                     
+            <span>Theme by <a href="http://store.ia.net">Information Architects</a>.</span>
+        </footer>
+
+    </article><!-- end of #content -->
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
