@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Big Data Distibuted Systems in 2014. Infrastructure.
-date: {}
 categories: tech
 published: true
 ---
