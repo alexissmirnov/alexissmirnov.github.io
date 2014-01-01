@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Big Data Distibuted Systems in 2014. Infrastructure."
-date:   2013-12-30 21:52:07
+title: Big Data Distibuted Systems in 2014. Infrastructure.
+date: {}
 categories: tech
+published: true
 ---
-## Google Compute Engine
-In 2013 and prior, the concept of public IaaS has been well established by [AWS EC2](http://aws.amazon.com/ec2) and adjacent AWS technologies - a utility-based service that provides access to elastic compute resources. What followed are several adaptations of these core concepts to the private cloud. But there have not been a viable alternative to EC2.
 
+In 2013 and prior, the concept of public IaaS has been well established by [AWS EC2](http://aws.amazon.com/ec2) and adjacent AWS technologies - a utility-based service that provides access to elastic compute resources. What followed are several adaptations of these core concepts to the private cloud. In 2014 we should see some changes to the status quo.
+
+## Google Compute Engine
 In 2014 we'll see the first real competitor of EC2: [Google Compute Engine](https://cloud.google.com/products/compute-engine/). I won't bore you with the talk about Google's deep pockets to fight the price war with Amazon. But it is important to note that Google does have at least one technology advantage. Google would be using dedicated finer that connects its data centres, while Amazon uses the public internet. As a result, globally-distributed systems stand to gain in network performance and predicability.
 
 In 2014 GCE will not make a dent in AWS growth and usage, but will likely provoke some reaction from AWS which will likely take the form of further price reductions.  
