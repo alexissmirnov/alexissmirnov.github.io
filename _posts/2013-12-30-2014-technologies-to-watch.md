@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Most important technologies in 2014. Big Data Distributed Systems"
-date:   2013-12-30 21:52:07
+title: Most important technologies in 2014. Big Data Distributed Systems
+date: {}
 categories: tech
+published: true
 ---
+
 End of the year is the time for reflection, for looking back at the past year and looking forward into the next year trying to predict what the future holds. I'm always curious what technology will be most important in the future?
 
 Ask this question without imposing any constrains and you may get answers about energy, space exploration, biology, artificial intelligence. After all, the most important technologies will be those that solve the biggest problems and provide the most powerful tools.
@@ -27,5 +29,3 @@ The fact that foundational technologies have disproportionate impact on our live
 These systems are so essential, yet they are also very new. Their adoption outside of leading internet giants has really just started over the last few years. Their fundamentals are still in active development. There is no way to know for sure what specific technologies will be at the hart of such systems in 10 years. But things are more clear looking one year ahead.
 
 In the [next blog](/tech/2013/12/30/Big-Data-Distributed-Systems--2014-predictions.html) I'll note my own predictions, so that I can check back in a year.
-
-
