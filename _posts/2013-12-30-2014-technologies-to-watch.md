@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Most important technologies in 2014. Big Data Distributed Systems
-date: {}
 categories: tech
 published: true
 ---
