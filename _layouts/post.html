@@ -13,6 +13,7 @@
         <!-- <link rel="stylesheet" href="css/main.css"> -->
         <link rel="stylesheet" media="all" href="http://cloudfront.ia.net/wp-content/themes/iA4-0.2/style.css" />
         <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         <script>
@@ -41,12 +42,9 @@
     }
     </script>
 
-        <title>Page title</title>
+        <title>{{page.title}}</title>
         <meta name="description" content="Page description">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
 
     </head>
     <body>
@@ -57,7 +55,7 @@
         <!-- Add your site or application content here -->
 <article id="content">
         <header>
-            <span class="post_author">Alexis Smirnov</span> 
+            <h3 class="blog_post_header"><a href="/">{{site.name}}</a></h3>
         </header>
         <section id="post">
 
@@ -94,7 +92,7 @@
         <footer>
             <h1 class="section_separator"><span></span></h1>
 
-            <nav><a href="http://weblog.smirnov.ca/">Home</a>&nbsp;|&nbsp;<a href="http://twitter.com/alexissmirnov">Twitter</a>&nbsp;|&nbsp;<a href="http://github.com/alexissmirnov">GitHub</a>|&nbsp;<a href="http://www.linkedin.com/in/alexissmirnov">LinkedIn</a></nav>                     
+            <nav><a href="http://weblog.smirnov.ca/">Home</a>&nbsp;|&nbsp;<a href="http://twitter.com/alexissmirnov">Twitter</a>&nbsp;|&nbsp;<a href="http://github.com/alexissmirnov">GitHub</a>&nbsp;|&nbsp;<a href="http://www.linkedin.com/in/alexissmirnov">LinkedIn</a></nav>                     
                      
             <span>Theme by <a href="http://store.ia.net">Information Architects</a>.</span>
         </footer>

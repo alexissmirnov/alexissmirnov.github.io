@@ -5,10 +5,10 @@ title: Alexis Smirnov
 
 
 <div id="home">
-  <ul class="posts">
+  <section class="posts">
       {% for post in site.posts %}
 
-        <section id="post">
+        <section class="blog_post">
 
             <h1 class="section_separator">
                 <span>{{ post.date | date_to_string }}</span>
@@ -16,12 +16,12 @@ title: Alexis Smirnov
 
             <article id="{{ page.id }}" class="post">
 
-                <h1 class="post_title">{{ post.title }}</h1>
+                <h1 class="blog_post_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
 
                    <p>{{post.excerpt}}<a href="{{post.url}}" class="more_link">More</a></p> 
             </article><!-- end of .post -->
         </section><!-- end of #post -->
 
         {% endfor %}
-  </ul>
+  </section>
 </div>
