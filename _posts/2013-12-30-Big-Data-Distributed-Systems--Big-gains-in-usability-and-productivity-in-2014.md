@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Big Data Distributed Systems in 2014. Big gains in usability and productivity"
+title:  "Big Data Distributed Systems in 2014. Usability and productivity"
 date:   2013-12-30 21:52:07
 categories: tech
 ---
 The tools and platforms for data-driven distributed systems are still far too difficult to use even for very experienced software engineers. Because of this, the progress of adoption is much slower than the real-world need would dictate. There are huge numbers of projects that don't get to use the right tools for their needs simply because their owners find it too difficult to understand.
 
-In 2014 this area will see advances in these broad areas
+In 2014 this area will see advances in a few broad areas
 
 ## Ease of development: Go language
 [Derek Collison](https://twitter.com/derekcollison‎) made a [prediction](https://twitter.com/derekcollison/status/245522124666716160) that [Go](http://golang.org) will become the dominant language for systems work in IaaS, Orchestration, and PaaS in 24 months. That was 15 months ago and things are really on track for it to be pretty accurate. The language's use in distributed systems is growing fast. It's amazing how much traction this new language has received (even without generics).
