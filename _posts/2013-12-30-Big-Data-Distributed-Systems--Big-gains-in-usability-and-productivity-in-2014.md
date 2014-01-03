@@ -30,8 +30,8 @@ Heroku remains a leading PaaS. The world owes Heroku two fundamental primitives 
 2014 will see further componentization of PaaS and growth of usage particularly favouring smaller, simpler to deploy and easier-to-understand PaaS alternatives.
 
 ## Common methodology
-Finally, the list of 2014 technologies to watch would not be complete without mentioning [12 factor methodology](http://12factor.net/), an important document that received lots of attention in 2013. The principles defined in this document is a true a crystallization of collective experience of many people who have build hundreds of distributed systems and learned their lessons.
+Finally, the list of 2014 technologies to watch would not be complete without mentioning [12 factor methodology](http://12factor.net/), an important document that received lots of attention in 2013. The principles defined in this document is a true a crystallization of collective experience of many people who have build hundreds of apps and learned their lessons.
 
 This manifest-like document is a modern analog of [Design Patterns](http://en.wikipedia.org/wiki/Design_Patterns) or [Refactoring](http://en.wikipedia.org/wiki/Refactoring). 
 
-I expect that this document will provide the common vocabulary and a common set of principles and priorities for engineers involved in development and operation of distributed systems.
+I expect that this document will provide the common vocabulary and a common set of principles and priorities for software engineers that develop and operate apps that make up distributed systems. In 2014 I hope to see a set of factors that define the methodology for modern distributed systems. 
