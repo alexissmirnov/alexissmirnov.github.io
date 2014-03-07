@@ -12,11 +12,13 @@ A week ago I had a great pleasure to attend a few sessions of [WSDM 2014](www.ws
 This is a highly relevant paper that I've reviewed [here](http://weblog.smirnov.ca/tech/2014/03/06/Research-paper-review.-On-Building-Entity-Recommender-Systems-Using-User-Click-Log-and-Freebase-Knowledge.html).
 ## 2. Exploiting User Disagreement for Web Search Evaluation: an Experimental Approach
 The key insight of this paper is that with a high disagreement amongst users, lower relevance levels might need to be promoted more than in the case where there is global consensus on the top results.
+
 Read the paper [here](wwwhome.ewi.utwente.nl/~hiemstra/papers/wsdm2014.pdf).
 ## 3. Modelling Dwell Time to Predict Click-level Satisfaction
 This paper shows that the topic of the page, its length and its readability are all critical in determining what dwell time threshold must be selected to indicate if a page click is associated with satisfaction, as oppose to a bounce-back. The authors propose a method to account these factors that significantly improves filtering out of noisy clicks (bounce-backs). 
 
 For this paper to be relevant, your search engine must first leverage click-though data for relevance ranking (see [Implementing Click-through Relevance Ranking in Solr](http://www.slideshare.net/LucidImagination/bialecki-andrzej-clickthroughrelevancerankinginsolrlucidworksenterprise)). Once this is in place this paper describes a good improvement to the baseline.
+
 Read the paper [here](http://research.microsoft.com/en-us/um/people/ryenw/papers/KimWSDM2014.pdf).
 ## 4. Lessons from the Journey: A Query Log Analysis of Within-Session Learning 
 This paper looks at how user's knowledge grows during a search session and how to improve ranking and UI to optimize this dynamic.
@@ -34,6 +36,6 @@ The paper states that authors are interested in applying their techniques within
 
 The paper was made available to WSDM attendees, but I wasn't able to find a public link to the paper. It is available for purchase on [ACM](http://dl.acm.org/citation.cfm?id=2556250&dl=ACM&coll=DL&CFID=293807221&CFTOKEN=56074720).
 
-## ___
+## ~
 In general, the conference was well organized and run. I liked the mix of academic and industry perspectives. I also realized how hard it is to present an academic paper in 10-20 minutes and make it clear and engaging. Some speakers did a fantastic job at it. Others resorted to condensing the paper into a dozen slides or so (with formulas and all) and then proceeded to simply read the slides to the audience - that's when I knew I wasn't fast enough to keep up. Perhaps this is too much to ask, but whenever a paper reports on an experiment it would be much more helpful if the dataset and the code would be made available.
 
