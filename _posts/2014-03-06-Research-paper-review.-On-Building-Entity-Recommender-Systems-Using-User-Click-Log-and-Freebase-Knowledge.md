@@ -5,7 +5,7 @@ date:   2014-03-06
 categories: tech
 ---
 
-I had a pleasure of attending a presentation of this paper at WSDM 2014 conference in New York.
+I had a pleasure of attending a presentation of this paper at [WSDM 2014](www.wsdm-conference.org/2014) conference in New York.
 
 The paper describes the integration search engines and recommender systems. The authors propose an entity recommendation framework that uses user query log and the [Freebase](www.freebase.com) entity graph. The framework uses similarity features extracted from both user log and the entity graph. The framework also accounts for the consistency and drift natures of user interests, different types of entity relationships as well as several other key heuristics. The method outperforms popular recommendation approaches. 
 
