@@ -36,6 +36,18 @@ The paper states that authors are interested in applying their techniques within
 
 The paper was made available to WSDM attendees, but I wasn't able to find a public link to the paper. It is available for purchase on [ACM](http://dl.acm.org/citation.cfm?id=2556250&dl=ACM&coll=DL&CFID=293807221&CFTOKEN=56074720).
 
+## Other papers
+I haven't reviewed all the papers that seemed interested. Those building entity graphs and vertical semantic search engines, I invite you to read them and comment.
+
+- [Social Collaborative Retrieval](http://web.eecs.umich.edu/~kulesza/pubs/social_wsdm14.pdf)
+- [Adapting Deep RankNet for Personalized Search](research.microsoft.com/pubs/205161/wsdm233-song.pdf‎)
+- [Taxonomy Discovery for Personalized Recommendation](www.cs.berkeley.edu/~yuczhang/files/wsdm14_taxonomy.pdf‎)
+- [Entity Linking at the Tail: Sparse Signals, Unknown Entities, and Phrase Models](research.microsoft.com/pubs/205509/wsdm180-jin.pdf‎)
+- [Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs](http://mllab.csa.iisc.ernet.in/sctm/)
+- Nonparametric Bayesian Upstream Supervised Multi-Modal Topic Models (ACM)[dl.acm.org/citation.cfm?id=2556238‎]
+- [WebChild: Harvesting and Organizing Commonsense Knowledge from the Web](gerard.demelo.org/papers/webchild.pdf‎)
+- [Trust, but Verify: Predicting Contribution Quality for Knowledge Base Construction and Curation](www.ipeirotis.com/wp-content/uploads/2014/01/wsdm2014-cqual1.pdf‎)
+
 ## ~
 In general, the conference was well organized and run. I liked the mix of academic and industry perspectives. I also realized how hard it is to present an academic paper in 10-20 minutes and make it clear and engaging. Some speakers did a fantastic job at it. Others resorted to condensing the paper into a dozen slides or so (with formulas and all) and then proceeded to simply read the slides to the audience - that's when I knew I wasn't fast enough to keep up. Perhaps this is too much to ask, but whenever a paper reports on an experiment it would be much more helpful if the dataset and the code would be made available.
 
