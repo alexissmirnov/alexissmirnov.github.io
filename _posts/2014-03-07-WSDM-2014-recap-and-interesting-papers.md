@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WSDM 2014: Five interesting papers"
+title:  "WSDM 2014: Interesting papers"
 date:   2014-03-07
 categories: tech
 ---
@@ -44,10 +44,10 @@ I haven't reviewed all the papers that seemed interested. Those building entity 
 - [Taxonomy Discovery for Personalized Recommendation](www.cs.berkeley.edu/~yuczhang/files/wsdm14_taxonomy.pdf‎)
 - [Entity Linking at the Tail: Sparse Signals, Unknown Entities, and Phrase Models](research.microsoft.com/pubs/205509/wsdm180-jin.pdf‎)
 - [Going beyond Corr-LDA for Detecting Specific Comments on News & Blogs](http://mllab.csa.iisc.ernet.in/sctm/)
-- Nonparametric Bayesian Upstream Supervised Multi-Modal Topic Models (ACM)[dl.acm.org/citation.cfm?id=2556238‎]
+- Nonparametric Bayesian Upstream Supervised Multi-Modal Topic Models [ACM](dl.acm.org/citation.cfm?id=2556238‎)
 - [WebChild: Harvesting and Organizing Commonsense Knowledge from the Web](gerard.demelo.org/papers/webchild.pdf‎)
 - [Trust, but Verify: Predicting Contribution Quality for Knowledge Base Construction and Curation](www.ipeirotis.com/wp-content/uploads/2014/01/wsdm2014-cqual1.pdf‎)
 
 ## ~
-In general, the conference was well organized and run. I liked the mix of academic and industry perspectives. I also realized how hard it is to present an academic paper in 10-20 minutes and make it clear and engaging. Some speakers did a fantastic job at it. Others resorted to condensing the paper into a dozen slides or so (with formulas and all) and then proceeded to simply read the slides to the audience - that's when I knew I wasn't fast enough to keep up. Perhaps this is too much to ask, but whenever a paper reports on an experiment it would be much more helpful if the dataset and the code would be made available.
+In general, the conference was well organized and run. I liked the mix of academic and industry perspectives. I've enjoyed meeting lots of friendly people who were so open to share their expertise. I also realized how hard it is to present an academic paper in 10-20 minutes and make it clear and engaging - something I'll have to deal with soon (our paper was accepted to [Canadian AI 2014](https://cs.uwaterloo.ca/conferences/ai2014/program.html) coming in May). Most speakers did a fantastic job at it. Some resorted to condensing the paper into a dozen slides or so (with formulas and all) and then proceeded to read the slides to the audience - that's when I knew I wasn't fast enough to keep up. Perhaps this is too much to ask, but whenever a paper reports on an experiment it would be much more helpful if the dataset and the code would be made available.
 
