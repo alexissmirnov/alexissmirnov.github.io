@@ -5,7 +5,7 @@ date:   2014-03-07
 categories: tech
 ---
 A week ago I had a great pleasure to attend a few sessions of [WSDM 2014](www.wsdm-conference.org/2014) conference in New York. The acronym is Web Search and Data Mining, but the name of the conference is usually pronounced as "wisdom". Given interest in domain-specific (vertical) semantic search engines, there are several papers that caught my attention. 
-## 
+## .
 
 
 ## 1. On Building Entity Recommender Systems Using User Click Log and Freebase Knowledge
