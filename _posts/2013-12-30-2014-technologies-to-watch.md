@@ -23,7 +23,7 @@ Second, any system that solves a big problem in any industry will run on a distr
 
 The world's data is growing at compounded annual growth rate of around 45%, which means a 44X increase in the next 10 years. This is a direct consequence of entire industries becoming software-based, a direct outcome of "software eating the world". Distributed system that stands a chance to solve a big problem needs to deal with datasets that follow such growth rate.
 
-The fact that foundational technologies have disproportionate impact on our lives should be surprising. We've seen this before. Advances in transportation enabled trade. Advances in electrical grid spurred so many transformational technologies that rely on electricity. Data-driven distributed systems is one of those foundational technologies.
+The fact that foundational technologies have disproportionate impact on our lives should not be surprising. We've seen this before. Advances in transportation enabled trade. Advances in electrical grid spurred so many transformational technologies that rely on electricity. Data-driven distributed systems is one of those foundational technologies.
 
 These systems are essential, yet they are also very new. Their adoption outside of internet giants has really just started over the last few years. Their fundamentals are still in active development. There is no way to know for sure what specific technologies will be at the hart of such systems in 10 years. But things are more clear looking one year ahead.
 
